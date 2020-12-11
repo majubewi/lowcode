@@ -8,6 +8,7 @@ from smtplib import SMTPRecipientsRefused
 
 def sendmail(mailmessage,toaddrs):
     try:
+        print("Sending mail to: " + sponsor)
         #From and To
         fromaddr = 'svpoltringen@tueit.de'  
         toaddrs  = toaddrs
@@ -17,7 +18,7 @@ def sendmail(mailmessage,toaddrs):
         msg.set_charset('utf8')
         msg["FROM"] = fromaddr
         msg["To"] = toaddrs
-        #msg["Cc"] = "sv.poltringen@arcor.de"
+        msg["Cc"] = "sv.poltringen@arcor.de"
         msg['Subject'] = Header(
             "SV Poltringen Feldsponsor".encode('utf-8'),
             'UTF-8'
@@ -84,8 +85,7 @@ if __name__ == "__main__":
                     felder = feldbuchung[0]
                 price_sum += int(feldbuchung[1])
             mailmessage = messagetemplate.format(feld=felder,price=price_sum)
-            print("Sending mail to: " + sponsor)
-            sendmail(mailmessage,sponsor)
+            #sendmail(mailmessage,sponsor)
             
         
         
