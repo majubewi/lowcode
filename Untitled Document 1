@@ -1,0 +1,24 @@
+Doctype Event
+
+subject
+starts_on 2020-09-22 14:00:00+02:00 - > 03-11-2020 10:51:42
+ends_on 03-11-2020 10:51:42 (Muss am selben Tag wie starts_on sein)
+event_type (Privat/Public/Cancelled)
+status (Open/Closed)
+all_day (1/0)
+color #ff7846
+repeat_this_event (1/0) 
+-> repeat_on (Daily, Weekly, Monthly, Yearly)
+-> repeat_till (12-11-2020)
+description
+
+#event_participants
+
+
+creation 2020-11-08 10:54:26.841968
+modified 2020-11-08 10:54:26.841968
+name
+
+Note
+vobject behaviour generateImplicitParameters & validate
+dir(calendar)

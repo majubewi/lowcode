@@ -1,0 +1,126 @@
+id,price,name,vorname,firma,firmPage,public,email,strasse,plz,ort,telefon,message,img,payed,lastMod
+feld-40-14,10,Norz,Alexander,,,1,alex.norz@gmx.de,"Aiblestraße, 25",72119,Ammerbuch,,,,0,2017-04-10
+feld-40-15,10,Norz,Alexander,,,1,alex.norz@gmx.de,"Aiblestraße, 25",72119,Ammerbuch,,,,0,2017-04-10
+feld-40-16,10,Norz,Alexander,,,1,alex.norz@gmx.de,"Aiblestraße, 25",72119,Ammerbuch,,,,0,2017-04-10
+feld-41-14,10,Norz,Alexander,,,0,alex.norz@gmx.de,"Aiblestraße, 25",72119,Ammerbuch,,,,0,2017-04-10
+feld-41-15,10,Norz,Alexander,,,1,alex.norz@gmx.de,"Aiblestraße, 25",72119,Ammerbuch,,,,0,2017-04-10
+feld-41-16,10,Norz,Alexander,,,1,alex.norz@gmx.de,"Aiblestraße, 25",72119,Ammerbuch,,,,0,2017-04-10
+feld-47-2,10,Schaible,Benjamin,,,1,beni-schaible@gmx.de,Holunder Weg 4,72119,Ammerbuch,07073 910022,,,0,2020-09-24
+feld-46-2,10,Schaible,Jasmin,,,1,benni-schaible@gmx.de,Holunder Weg 4,72119,Ammerbuch,07073 910022,,,0,2020-09-24
+feld-10-26,10,Meyer,Eckehardt,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-24
+feld-10-27,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-10-28,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-10-29,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-11-26,10,Meyer,Eckehardt,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-24
+feld-11-27,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-11-28,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-11-29,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-12-26,10,Meyer,Eckehardt,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-24
+feld-12-27,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-12-28,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-12-29,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-8-26,10,Meyer,Eckehardt,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-24
+feld-8-27,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-8-28,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-8-29,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-9-26,10,Meyer,Eckehardt,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-24
+feld-9-27,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-9-28,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-9-29,10,Eckehardt,Meyer,,,1,eckehardt.meyer@web.de,Justinus-Kerner-Str. 6,72119,Ammerbuch,1747658259,,,0,2017-11-07
+feld-28-10,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-28-19,10,Kittel,Richard,,,1,gkittel60@web.de,Wasenbreite 11,72119,Ammerbuch,07073/6115,möchte später sein Familienwappen einsetzen,,0,2017-09-26
+feld-29-10,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-29-11,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-29-19,10,Kittel,Richard,,,1,gkittel60@web.de,Wasenbreite 11,72119,Ammerbuch,,Familienwappen,,0,2017-09-26
+feld-30-10,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-30-11,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-30-19,10,Kittel,Richard,,,1,gkittel60@web.de,Wasenbreite 11,72119,Ammerbuch,07073/6115,Familienwappen,,0,2017-09-26
+feld-31-10,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-31-11,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-31-19,10,Kittel,Richard,,,1,gkittel60@web.de,Wasenbreite 11,72119,Ammerbuch,,Familienwappen,,0,2017-09-26
+feld-32-10,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-32-11,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-32-19,10,Kittel,Richard,,,1,gkittel60@web.de,Wasenbreite 11,72119,Ammerbuch,07073/6115,Familienwappen,,0,2017-09-26
+feld-34-12,10,Baur,Josef,,,1,gkittel60@web.de,Bergstr. 22,72119,Ammerbuch,70731579,,,0,2020-09-18
+feld-45-6,10,Siegel ,Heribert,,,1,heribert.siegel@arcor.de,Pfalzgrafenring 48,72119,Ammerbuch,,,,0,2017-06-17
+feld-46-6,10,Siegel ,Heribert,,,1,heribert.siegel@arcor.de,Pfalzgrafenring 48,72119,Ammerbuch,,,,0,2017-06-17
+feld-47-6,10,Siegel ,Heribert,,,1,heribert.siegel@arcor.de,Pfalzgrafenring 48,72119,Ammerbuch,,,,0,2017-06-17
+feld-48-6,10,Siegel ,Heribert,,,1,heribert.siegel@arcor.de,Pfalzgrafenring 48,72119,Ammerbuch,,,,0,2017-06-17
+feld-49-6,10,Siegel ,Heribert,,,1,heribert.siegel@arcor.de,Pfalzgrafenring 48,72119,Ammerbuch,,,,0,2017-06-17
+feld-28-11,10,Hess,Steffen,,,1,hess.steff@web.de,,72119,Ammerbuch,70733619,,,0,2017-09-15
+feld-34-8,10,Hess,Steffen,,,1,hess.steff@web.de,Pfalzgrafenring 38,72119,Ammerbuch,1729747660,Schiedsrichter SV Poltringen,,0,2018-04-15
+feld-16-10,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-16-11,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-16-8,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-16-9,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-17-10,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-17-11,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-17-8,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-17-9,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-18-10,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,,,,0,2017-07-16
+feld-18-11,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-18-8,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-18-9,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-19-10,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-19-11,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-19-8,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-19-9,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-20-10,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-20-11,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-20-8,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-20-9,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-21-10,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-21-11,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-21-8,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-21-9,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-22-10,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-22-11,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-22-8,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-22-9,10,Müller,Sebastian,Planungsbüro Müller,www.planungsbueromueller.de,1,info@planungsbueromueller.de,Blasenbergstraße 29,72119,Ammerbuch,07073 8529772,,,0,2017-07-16
+feld-11-5,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-11-5.png,0,2017-04-28
+feld-11-6,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-11-6.png,0,2017-04-28
+feld-11-7,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-11-7.png,0,2017-04-28
+feld-11-8,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-11-8.png,0,2017-04-28
+feld-12-5,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-12-5.png,0,2017-04-28
+feld-12-6,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-12-6.png,0,2017-04-28
+feld-12-7,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-12-7.png,0,2017-04-28
+feld-12-8,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,1,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-12-8.png,0,2017-04-28
+feld-13-5,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-13-5.png,0,2017-04-28
+feld-13-6,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-13-6.png,0,2017-04-28
+feld-13-7,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,1,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-13-7.png,0,2017-04-28
+feld-13-8,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,1,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-13-8.png,0,2017-04-28
+feld-14-5,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-14-5.png,0,2017-04-28
+feld-14-6,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-14-6.png,0,2017-04-28
+feld-14-7,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,1,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-14-7.png,0,2017-04-28
+feld-14-8,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,1,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-14-8.png,0,2017-04-28
+feld-15-5,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-15-5.png,0,2017-04-28
+feld-15-6,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,0,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-15-6.png,0,2017-04-28
+feld-15-7,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,1,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-15-7.png,0,2017-04-28
+feld-15-8,10,Schmidt,Wolfram,tüit GmbH,https://www.tueit.de,1,info@tueit.de,Bussardweg 7,72072,Tübingen,4970719805392,"Sicherheit - Vertrauen - Zukunft
+...vor Allem im Sport!",images/uploadImg/feld-15-8.png,0,2017-04-28
+feld-29-29,10,Baur,Nina,,,0,nina-baur@gmx.net,Bergstraße 22,72119,Ammerbuch,,,,0,2017-04-18
+feld-30-29,10,Baur,Nina,,,0,nina-baur@gmx.net,Bergstraße 22,72119,Ammerbuch,,,,0,2017-04-14
+feld-31-29,10,Baur,Nina,,,0,nina-baur@gmx.net,Bergstraße 22,,,,,,0,2017-04-14
+feld-27-20,10,Wellhäußer,Gebhard u. Frida,,,1,poltringer@-online.de,Öschenweg 6,72119,Ammerbuch,07073/7196,,,0,2017-07-31
+feld-26-20,10,Wellhäußer,Gebhard u. Frida,,,1,poltringer@online.de,Öschenweg 6,72119,Ammerbuch,07073/7196,,,0,2017-07-31
+Elfer-Links,200,Sammet,Mark,AVG Mössingen,www.avg-mössingen.de,0,sammet@avg-moessingen.de,,,,,,,0,2017-06-02
+feld-44-15,25, Sammet,Janine,avg-wohnmobilvermiet,,0,sammet@avg-moessingen.de,Hechinger Str. 38,72116,Mössingen,,,,0,2017-05-26

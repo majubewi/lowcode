@@ -1,0 +1,28 @@
+#Can mapby
+FREQ=DAILY
+INTERVAL == 1 or !INTERVAL
+!BYDAY [or (conversion to FREQ=WEEKLY possible)]
+
+FREQ=WEEKLY
+INTERVAL == 1 or !INTERVAL
+!BYDAY or BYDAY
+
+FREQ=MONTHLY
+INTERVAL == 1 or !INTERVAL
+!BYDAY
+(dtstart.value.date.day <= 28)
+
+FREQ=YEARLY
+INTERVAL == 1 or !INTERVAL
+BYMONTH == dtstart.value.month
+!BYDAY
+(dtstart.value.date.day <= 28)
+
+#Can never map
+INTERVAL != 1
+
+
+
+EASY DESCRIPTION OF ICALENDAR
+
+https://www.kanzaki.com/docs/ical/

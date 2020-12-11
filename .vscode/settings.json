@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "${workspaceFolder}/env/bin/python",
+    "python.autoComplete.extraPaths": [
+      "${workspaceFolder}/customModule"
+    ],
+    "python.analysis.extraPaths": [
+      "${workspaceFolder}/customModule"
+    ]
+  }
