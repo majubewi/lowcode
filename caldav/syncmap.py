@@ -3,6 +3,8 @@ import functools
 import hashlib
 import datetime
 
+#Source: https://unterwaditzer.net/2016/sync-algorithm.html
+
 class SyncMap:
     def __init__(self,identifier):
         """
