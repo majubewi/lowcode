@@ -1,10 +1,14 @@
-import hashlib
-import datetime
-
-uid = "98342750239873205"
-last_modified = datetime.datetime.now()
+#Retrieve etags
+uida = "98342-750239-873205"
+uidb = "98342-750239-873345"
 created = datetime.datetime.now()
-etag_raw = uid + last_modified.strftime("%F %T") + created.strftime("%F %T")
-etag = hashlib.md5(etag_raw.encode('utf-8')).hexdigest()
+last_modified = datetime.datetime.now()
 
-print(etag)
+etaga = etag(uida,created,last_modified)
+etagb = etag(uidb,created,last_modified)
+
+#Get instructions for event
+instr = make_instructions(uid,etaga, etagb)
+
+
+#Get corresponding objects
