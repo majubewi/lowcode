@@ -1,9 +1,12 @@
-#From https://github.com/tmbo/questionary#installation
-#AND https://github.com/tiangolo/typer
+# Source: https://github.com/tmbo/questionary#installation and https://github.com/tiangolo/typer
+# Requirements: pip3 install typer questionary
+# Usage:
+#   python3 cli.py order --help
+#   python3 cli.py order Marius
+#   python3 cli.py takeaway <id>
 
-# Requirements via pip3: typer and questionary
 import typer
-import questionary #Question types: https://questionary.readthedocs.io/en/stable/pages/types.html
+import questionary
 from jcache import JCache
 
 app = typer.Typer()

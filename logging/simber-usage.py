@@ -1,4 +1,7 @@
-#From   https://simber.deepjyoti30.dev/#get-started
+# README:
+# Source:   https://simber.deepjyoti30.dev/#get-started
+# General problem with simber: After a critical log , he code execution stops!!!
+
 from simber import Logger
 import sys
 
@@ -34,7 +37,6 @@ logger.warning("A warning message from the test logger")
 # Print a error message
 logger.error("A error message from the test logger")
 
-# ATTENTION: After Critical log the code stops!!!
 #logger.critical("A critical message from the test logger")
 
 # Disable logging to stdout

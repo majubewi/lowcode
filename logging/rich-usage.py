@@ -20,6 +20,7 @@ logging.basicConfig(
 )
 log = logging.getLogger("test")
 
+
 # Add file log handler
 MAX_BYTES = 10000000 # Maximum size for a log file
 BACKUP_COUNT = 9 # Maximum number of old log files
@@ -41,3 +42,5 @@ except Exception as e:
 
 # Disable logging to file => It is not possible to remove the stdout handler.
 log.removeHandler(filehandler)
+
+

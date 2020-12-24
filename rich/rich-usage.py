@@ -6,7 +6,7 @@ print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:", locals())
 from rich import pretty
 pretty.install()
 
-# Inspect type and methods of a object
+# Inspect type and methods of a object without running debug mode
 from rich import inspect
 inspect(str,methods=True)
 
