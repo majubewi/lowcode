@@ -62,7 +62,7 @@ def order(name: str, formal: bool = False):
     cache = JCache()
     import random
     id = random.randint(0,20000000)
-    cache.stash(id, order)
+    cache.stash(key=id, data=order)
 
     # Answer
     typer.echo(f"{name}, please come back in 15 minutes. Your id is {id}.")
@@ -72,7 +72,7 @@ def takeaway(id: int):
 
     # Load order from cachefile
     cache = JCache()
-    order = cache.fetch(id)
+    order = cache.fetch(key=id)
 
     # Answer
     typer.echo(f"Welcome back {order['name']}. Your Lasagne is ready.")
