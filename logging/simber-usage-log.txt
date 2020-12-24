@@ -1,5 +1,5 @@
-23/12/2020 09:50:17 [DEBUG][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 25: Just a debug message 
-23/12/2020 09:50:17 [INFO][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 28: Just printing an info message from the test logger 
-23/12/2020 09:50:17 [WARNING][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 31: A warning message from the test logger 
-23/12/2020 09:50:17 [ERROR][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 34: A error message from the test logger 
-23/12/2020 09:50:17 [CRITICAL][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 37: A critical message from the test logger 
+24/12/2020 10:57:28 [DEBUG][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 26: Just a debug message 
+24/12/2020 10:57:28 [INFO][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 29: Just printing an info message from the test logger 
+24/12/2020 10:57:28 [WARNING][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 32: A warning message from the test logger 
+24/12/2020 10:57:28 [ERROR][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 35: A error message from the test logger 
+24/12/2020 10:57:28 [INFO][test] /home/marius/Development/fiddle/logging/simber-usage.py Line 47: This will not be visible in stdout. 

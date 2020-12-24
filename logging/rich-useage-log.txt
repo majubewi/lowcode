@@ -1,0 +1,6 @@
+2020-12-24 11:51:10,522 - test - [INFO] - rich-usage.py, 32, <module>: Hello, World!
+2020-12-24 11:51:10,536 - test - [ERROR] - rich-usage.py, 40, <module>: Exception occurred
+Traceback (most recent call last):
+  File "/home/marius/Development/fiddle/logging/rich-usage.py", line 38, in <module>
+    c = a / b
+ZeroDivisionError: division by zero

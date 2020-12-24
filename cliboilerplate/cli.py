@@ -65,7 +65,7 @@ def order(name: str, formal: bool = False):
     typer.echo(f"{name}, please come back in 15 minutes. Your id is {id}.")
 
 @app.command()
-def take(id: int):
+def takeaway(id: int):
 
     # Load order from cachefile
     cache = JCache()

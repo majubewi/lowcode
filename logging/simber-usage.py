@@ -1,5 +1,6 @@
 #From   https://simber.deepjyoti30.dev/#get-started
 from simber import Logger
+import sys
 
 filepath = "logging/simber-usage-log.txt"
 
@@ -33,5 +34,18 @@ logger.warning("A warning message from the test logger")
 # Print a error message
 logger.error("A error message from the test logger")
 
-# Print a critical message
-logger.critical("A critical message from the test logger")
+# ATTENTION: After Critical log the code stops!!!
+#logger.critical("A critical message from the test logger")
+
+# Disable logging to stdout
+def logger_update_disable_stdout(logger, disabled = False):
+  for stream in logger._streams:
+    if(stream.stream.name == "<stdout>"):
+      stream._disabled = True
+
+logger_update_disable_stdout(logger,True)
+logger.info("This will not be visible in stdout.")
+
+# Disable writing to files
+logger.update_disable_file(True)
+logger.info("This will not be visible in either stdout or the file.")
