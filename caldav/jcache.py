@@ -6,11 +6,13 @@ import time
 import sys
 import errno
 from pathlib import Path
+import re
 
 class JCache:
-    def __init__(self, cachefolder='src/cache/', timelog=False):
+    def __init__(self, filename='default', cachefolder='.jcache/', timelog=False):
         self.cachefolder = cachefolder
         self.timelog = timelog
+        self.filename = filename
         try:
             Path(cachefolder).mkdir(parents=True, exist_ok=True)
         except OSError as e:
@@ -18,38 +20,36 @@ class JCache:
                 raise
 
     def stash(self, key, data):
-        key = str(key)
         today = time.strftime("%x")
         try:
-            with open(self.cachefolder + key + ".json") as cache:
+            with open(self.cachefolder + self.filename + ".json", encoding="UTF-8") as cache:
                 _cache = json.load(cache)
         except:
             _cache = {}
 
         if self.timelog:
-            _cache[today] = data
+            _cache[today][key] = data
         else:
-            _cache = data
+            _cache[key] = data
 
-        with open(self.cachefolder + key + ".json", "w") as cache:
+        with open(self.cachefolder + self.filename + ".json", "w", encoding="UTF-8") as cache:
             json.dump(_cache, cache, indent=4)
 
 
     def fetch(self, key, range="today"):
-        key = str(key)
         today = time.strftime("%x")
         try:
-            with open(self.cachefolder + key + ".json") as cache:
+            with open(self.cachefolder + self.filename + ".json", encoding="UTF-8") as cache:
                 _data = json.load(cache)
 
             if self.timelog:
                 if range == "today":
-                    return _data[today]
+                    return _data[today][key]
                 if range == "all":
-                    return _data
+                    return _data[key]
                 else:
-                    return _data[range]
+                    return _data[range][key]
             else:
-                return _data
+                return _data[key]
         except Exception:
             raise Exception("Cache with key " + key + " not found in Cachfolder " + self.cachefolder)

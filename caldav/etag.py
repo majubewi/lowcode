@@ -1,14 +1,20 @@
+from syncmap import SyncMap
+import datetime
+
 #Retrieve etags
-uida = "98342-750239-873205"
-uidb = "98342-750239-873345"
+uid = "98342-750239-873205"
 created = datetime.datetime.now()
 last_modified = datetime.datetime.now()
 
-etaga = etag(uida,created,last_modified)
-etagb = etag(uidb,created,last_modified)
 
 #Get instructions for event
-instr = make_instructions(uid,etaga, etagb)
+syncmap = SyncMap("url://mycalendar")
+etaga = syncmap.etag(uid,created,last_modified)
+etagb = syncmap.etag(uid,created,last_modified)
+print(syncmap.compile_instruction(uid,etaga,None))
+syncmap.update_status(uid)
+
+
 
 
 #Get corresponding objects
