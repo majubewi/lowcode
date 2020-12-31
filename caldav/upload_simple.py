@@ -7,6 +7,7 @@ import dateutil.rrule as RR
 import pytz
 import traceback 
 import vobject
+import functools 
 
 from dotmap import DotMap
 
@@ -38,6 +39,10 @@ def upload_calendar(data):
     dtstart = datetime.datetime(2020,12,2,9,0)
     e.add('dtstart').value = dtstart
     e.add('description').value = "Beschreibungstext"
+    for child in new_calendar.getChildren():
+        print(child.serialize())
+        for component in child.getSortedChildren():
+            print(component.value)
     e.add('class').value = "Public" #Only Public, Private or Confidential !
     e.add('dtend').value = datetime.datetime(2020,12,2)
     e.add('last-modified').value = datetime.datetime.now()

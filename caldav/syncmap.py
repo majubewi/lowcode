@@ -9,7 +9,7 @@ class SyncMap:
     def __init__(self,identifier):
         """
         The identifier is e.g. the account + calendar name / address book name... must be unique.
-        Just take the CalDav-Resource URL...
+        E.g. CalDav-Resource URL...
         """
         self.identifier = identifier
         self.cache = JCache()
@@ -20,16 +20,22 @@ class SyncMap:
         self.save()
 
     def etag(self, uid, created, last_modified):
+        """
+        Generates an etag for an item. The datetime values should include seconds (not a requirement).
+        """
         etag_raw = uid + last_modified.strftime("%F %T") + created.strftime("%F %T")
         etag = hashlib.md5(etag_raw.encode('utf-8')).hexdigest()
         return etag
 
     def delete_status(self, uid):
+        """
+        Delete the status etag entries for a certain item. This is the same as update_status(uid, None, None).
+        """
         self.update_status(uid)
     
     def update_status(self, uid, etaga = None, etagb = None):
         """
-        After a successfull sync of the item this function needs to be called.
+        After a successfull sync of the item this function needs to be called. If both tags are None the status entry will be deleted.
         """
         try:
             if(uid and (etaga or etagb)):
@@ -57,75 +63,100 @@ class SyncMap:
             raise Exception("Synchronization Error. There is no cached entry for item with UID " + str(uid))
 
     def load(self, identifier):
+        """
+        Restores all classvariables from the persistent storage.
+        Is getting called from __init__()
+        """
         try:
             self.status = self.cache.fetch(identifier)
         except:
             self.status = {}
 
     def save(self):
+        """
+        Saves all classvariables to the persistent storage.
+        Is also getting called on obj.__del__()
+        """
         self.cache.stash(self.identifier, self.status)
     
     def compile_instruction(self, uid = None, a = None, b = None):
         """
+        @Parameters
         uid = Universal Identifier of the item
         a = etag of the local item if exists
         b = etag of the remote item if exists
+
+        @Returns 
+        The instructions on what needs to be done with two corresponding events ( = an event with the same uid).
+        The instruction returned has three possible Cmd Values:
+        - Copy (From 'Source' to 'Target[]')
+        - Delete (From 'Source[]')
+        - Conflict
+
+        E.g.:
+        {
+            "Cmd" : "Copy",
+            "Source" : "A",
+            "Target" : ["B", "status"]
+        }
         """
 
         statustags = self.status.get(uid) 
         if(a and not b and not statustags):
             instruction = {
                 "Cmd" : "Copy",
-                "Target" : ["B"]
+                "Source" : "A",
+                "Target" : ["B", "status"]
             }
             return instruction
         elif(not a and b and not statustags):
             instruction = {
                 "Cmd" : "Copy",
-                "Target" : ["A"]
+                "Source" : "B",
+                "Target" : ["A", "status"]
             }
             return instruction
         elif(a and not b and statustags):
             instruction = {
                 "Cmd" : "Delete",
-                "Target" : ["A","status"]
+                "Source" : ["A","status"]
             }
             return instruction
         elif(not a and b and statustags):
             instruction = {
                 "Cmd" : "Delete",
-                "Target" : ["B","status"]
+                "Source" : ["B","status"]
             }
             return instruction
         elif(a and b and not statustags):
             instruction = {
-                "Cmd" : "Conflict",
-                "Target" : []
+                "Cmd" : "Conflict"
             }
             return instruction
         elif(not a and not b and statustags):
             instruction = {
                 "Cmd" : "Delete",
-                "Target" : ["status"]
+                "Source" : ["status"]
             }
             return instruction
         elif(a and b and statustags):
             if(statustags[0] != a and statustags[1] == b):
                 instruction = {
                     "Cmd" : "Copy",
-                    "Target" : ["B"]
+                    "Source" : "A",
+                    "Target" : ["B","status"]
                 }
                 return instruction
             elif(statustags[0] == a and statustags[1] != b):
                 instruction = {
                     "Cmd" : "Copy",
-                    "Target" : ["A"]
+                    "Source" : "B",
+                    "Target" : ["A","status"]
                 }
                 return instruction
             elif(statustags[0] != a and statustags[1] != b):
                 instruction = {
-                    "Cmd" : "Conflict",
-                    "Target": []
+                    "Cmd" : "Conflict"
                 }
                 return instruction
             else:
