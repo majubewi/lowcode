@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['keylogger-usage.pyw'],
-             pathex=['env/lib/python3.8/site-packages', '/home/marius/Development/fiddle/keylogger'],
+             pathex=['C:\\Users\\Claudia\\fiddle\\keylogger'],
              binaries=[],
              datas=[],
              hiddenimports=[],
