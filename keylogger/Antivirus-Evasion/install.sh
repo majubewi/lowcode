@@ -4,8 +4,8 @@
 sudo apt install wine
 wget https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
 wine msiexec /i python-2.7.9.amd64.msi /qb
-#wine msiexec /i VCForPython27.msi #not tested
-#wine vcredist_x86.exe /install /q #not tested (maybe use winetricks instead but careful vcredist must be for python2.7)
+wine msiexec /i VCForPython27.msi #not tested
+wine vcredist_x86.exe /install /q #not tested (maybe use winetricks instead but careful vcredist must be for python2.7)
 sudo dpkg --add-architecture i386 && sudo apt-get update && sudo apt-get install wine32
 wget https://bootstrap.pypa.io/get-pip.py
 wine ~/.wine/drive_c/Python27/python.exe get-pip.py

