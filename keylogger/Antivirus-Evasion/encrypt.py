@@ -33,10 +33,10 @@ if __name__ == "__main__":
     (enc_payload,key) = encrypt(payload)
 
     # Create executable string for payload decryptor
-    payload_decryptor = "key = '" + key + "'\nepl = '" + enc_payload + "'\n" + """from cryptography.fernet import Fernet\nf = Fernet(key)\nc = f.decrypt(epl)\nexec(c)"""
+    payload_with_decryptor = "key = '" + key + "'\nepl = '" + enc_payload + "'\n" + """from cryptography.fernet import Fernet\nf = Fernet(key)\nc = f.decrypt(epl)\nexec(c)"""
 
     # Base64 everything
-    encodedBytes = base64.b64encode(payload_decryptor.encode("UTF-8"))
+    encodedBytes = base64.b64encode(payload_with_decryptor.encode("UTF-8"))
     print("Encrypt-Encoded Payload:")
     print(encodedBytes)
     #print("Key:")

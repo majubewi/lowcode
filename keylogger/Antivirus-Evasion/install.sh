@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+#All of this can be changed to python3 and x64 if necessary, it is recommended actually
+
 # If it does not work anymore play around with versions
 sudo apt install wine
 wget https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi
@@ -14,6 +16,9 @@ wine ~/.wine/drive_c/Python27/python.exe -m pip install py2exe_py2  #Installs py
 
 #wine ~/.wine/drive_c/Python27/python.exe -m pip install virtualenv
 #wine ~/.wine/drive_c/Python27/python.exe -m virtualenv env
+
+wine ~/.wine/drive_c/Python27/python.exe -m pip install pynput==1.0 
+wine ~/.wine/drive_c/Python27/python.exe -m pip install cryptography==3.3
 
 
 

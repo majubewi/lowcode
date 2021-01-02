@@ -39,8 +39,9 @@ wine ~/.wine/drive_c/Python27/python.exe -m pip install pynput==1.0
 wine ~/.wine/drive_c/Python27/python.exe -m pip install cryptography==3.3
 </code>
 
+### Create the exe file
 <code>
-wine ~/.wine/drive_c/Python27/python.exe -m PyInstaller --onefile  -w --hidden-import=pynput --hidden-import=cryptography mrtp.py
+wine ~/.wine/drive_c/Python27/python.exe -m PyInstaller --onefile  -w --hidden-import=pynput --hidden-import=cryptography onefile.py
 </code>
 
 Do not use the --noconsole flag for pyinstaller cause Windows Defender will pick it up
