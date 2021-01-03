@@ -1,6 +1,4 @@
-# Updated cache script based on mcadmin.
-# Includes timelog toggle so dates are not
-# logged at all.
+# Alternatively you can just use the pip pickle library...
 import json
 import time
 import sys
